@@ -37,17 +37,3 @@ networks:
         - subnet: "172.21.0.0/16"
     driver_opts:
       com.docker.network.bridge.name: wings0
-      
-      
-      
-      
-sudo su
-apt update && apt upgrade
-
-START COMMAND :
-
-docker-compose up -d
-
-LAST COMMAND :
-
-docker-compose up -d --force-recreate
